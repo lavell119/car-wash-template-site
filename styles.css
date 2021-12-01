@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+ 
+}
+
+.header-top {
+    background: darkblue;
+    height: 73px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 55px;
+    position: relative; 
+}
+
+.header-top::after {
+    background: blue;
+    width: 40%;
+    height: 100%;
+}
+
+.hours-container {
+    width: 270px;
+    height: 100%;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-container {
+    width: 150px;
+    height: 100%;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.email-container {
+    width: 250px;
+    height: 100%;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkblue;
+}
+
+.search {
+    position: relative; 
+    left: 500px;
+    height: 73px;
+    width: automatic;
+    background: darkblue;
+}
+
+.header-middle {
+    height: 144px;
+    display: flex;
+
+}
+
+.header-middle-left {
+    width: 50%;
+}
+
+.header-middle-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.award-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.award-txt-title {
+    font-weight: 550;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.award-txt-body {
+    font-size: 17px;
+}
+
+.header-bottom {
+    height: 65px;
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+
+}
+
+.award {
+    display: flex;
+    width: 40%;
+}
+
+.nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.appointment {
+    height: 100%;
+    width: 220px;
+    position: relative;
+    left: 550px;
+    background: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content-line1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 80%;
+}
+
+.banner-content-line2 {
+    font-size: 90px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.banner-content-line3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+    padding: 0 100px 20px 100px;
+}
+
+.banner-buttons button {
+    color: white;
+    width: 170px;
+    height: 70px;
+    border-radius: 7px;
+    margin-left: 14px;
+    background: blue; 
+    border: 1px solid white;
+}
+
+.section-1 {
+    height: 100vh;
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-left {
+    width: 50%;
+}
+
+.section-1-right {
+    width: 50%;
+    padding: 0px 60px 0px 60px;
+}
+
+.blue-title {
+    color: rgb(42, 112, 243);
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.section-title {
+    font-size: 44px;
+    color: rgb(8, 8, 97);
+    font-weight: bold;
+    padding-bottom: 29px;
+}
+
+.section-1-right-p {
+    font-size: 17px;
+}
+
+.section-right-snippet {
+    padding: 38px 0px 38px 0px;
+    
+}
+
+.snippet-txt {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.section-1-right button {
+    color: white;
+    width: 165px;
+    height: 67px;
+    border-radius: 7px;
+    margin-top: 32px;
+    background: blue; 
+    border: 1px solid white;
+}
+
+.section-2 {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2-snippet {
+    padding: 30px;
+    border-right: 1px solid lightgrey;
+}
+
+.section-2-snippet h3 {
+
+}
