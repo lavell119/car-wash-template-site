@@ -246,6 +246,237 @@ body {
     border-right: 1px solid lightgrey;
 }
 
-.section-2-snippet h3 {
+.section-3 {
+    padding: 0px 60px 0px 60px;
+    background: rgb(8, 8, 97);
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
+.section-3-title {
+    display: flex;
+    margin-bottom: 33px;
+
+}
+
+.white {
+    color: white;
+}
+
+.section-3-title button {
+    color: white;
+    width: 165px;
+    height: 67px;
+    background: blue; 
+    border: none;  
+
+}
+
+.section-3-title-right {
+    display: flex;
+    width: 50%;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-3-title-left {
+    width: 50%;
+    
+}
+
+.section-3-snippet-wrapper {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.section-3-snippet {
+    width: 400px;
+    background: white;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.sec-3-wrapper {
+    height: 80%;
+    width: 100%;    
+}
+
+.section-3-snippet img {
+    height: 150px;
+    width: auto;
+}
+
+.section-4 {
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-4-wrapper {
+    height: 90%;
+    width: 100%;
+
+}
+
+.pricing-tables-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    height: 95vh;
+    margin: auto;
+    padding: 0 60px 0 60px;
+}
+
+.pricing-table-header {
+    margin-top: 33px;
+    background: rgb(8, 8, 97);
+    padding: 15px 65px 15px 65px;
+    color: white;
+    font-size: 22px;
+
+}
+
+.dollar-sign {
+    color: rgb(8, 8, 97);
+    font-size: 19px;
+    
+}
+
+.small-price {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    line-height: 1;
+    color: rgb(8, 8, 97); 
+    gap: 1px;
+    font-weight: bold;
+}
+
+.price-number {
+    font-size: 55px;
+    display: inline-block;    
+}
+
+.pricing-field-wrapper {
+    margin: auto;
+    
+}
+
+.pricing-fields {
+    display: flex;
+    padding: 20px 0px;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    color: rgb(8, 8, 97);
+
+}
+
+.pricing-fields img {
+    margin-right: 20px;
+}
+
+.pricing-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+    margin: auto;
+    width: 30%;
+}
+
+.pricing-table button {
+    color: white;
+    width: 165px;
+    height: 55px;
+    border-radius: 7px;
+    background: blue; 
+    border: none;
+}
+
+.section-5 {
+    height: 100vh;
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-5-left {
+    width: 50%;
+}
+
+.section-5-right {
+    width: 50%;
+}
+
+.table {
+    width: 90%;
+    height: 600px;
+    background: rgb(8, 8, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.form-wrapper {
+    width: 74%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+ 
+}
+
+.input-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.table legend {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.input-row input {
+    width: 100%;
+    height: 50px;
+
+}
+
+.input-row {
+    width: 100%;
+    
+}
+
+.table button {
+    color: white;
+    width: 100%;
+    height: 55px;
+    border-radius: 7px;
+    background: blue; 
+    border: none;
+}
+
+.input-row label {
+    margin-bottom: 10px;
 }
