@@ -551,7 +551,7 @@ body {
     display: flex;
     align-items: center; 
     justify-content: flex-end;  
-    gap: 10px;
+    gap: 15px;
 }
 
 .footer {
@@ -634,6 +634,17 @@ body {
     width: 320px;
     justify-content: space-between;
     font-size: 15px;
+}
+
+.social-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: blue;
+
 }
 
 .blue {
