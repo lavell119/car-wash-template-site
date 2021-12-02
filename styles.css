@@ -5,6 +5,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: "poppins";
  
 }
 
@@ -17,6 +18,7 @@ body {
     align-items: center;
     padding-left: 55px;
     position: relative; 
+    font-size: 15px;
 }
 
 .header-top::after {
@@ -26,7 +28,7 @@ body {
 }
 
 .hours-container {
-    width: 270px;
+    width: 290px;
     height: 100%;
     padding-right: 50px;
     display: flex;
@@ -86,12 +88,12 @@ body {
 
 .award-txt-title {
     font-weight: 550;
-    font-size: 21px;
+    font-size: 19px;
     margin-bottom: 5px;
 }
 
 .award-txt-body {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .header-bottom {
@@ -114,7 +116,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-weight: 550;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .appointment {
@@ -140,7 +142,7 @@ body {
 }
 
 .banner-content-line1 {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: bold;
 }
 
@@ -154,13 +156,13 @@ body {
 }
 
 .banner-content-line2 {
-    font-size: 90px;
+    font-size: 88px;
     padding-bottom: 15px;
     font-weight: bold;
 }
 
 .banner-content-line3 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
     line-height: 1.6;
@@ -203,14 +205,14 @@ body {
 }
 
 .section-title {
-    font-size: 44px;
+    font-size: 42px;
     color: rgb(8, 8, 97);
     font-weight: bold;
     padding-bottom: 29px;
 }
 
 .section-1-right-p {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .section-right-snippet {
@@ -219,7 +221,7 @@ body {
 }
 
 .snippet-txt {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -351,7 +353,7 @@ body {
 
 .dollar-sign {
     color: rgb(8, 8, 97);
-    font-size: 19px;
+    font-size: 17px;
     
 }
 
@@ -367,7 +369,7 @@ body {
 }
 
 .price-number {
-    font-size: 55px;
+    font-size: 52px;
     display: inline-block;    
 }
 
@@ -456,7 +458,7 @@ body {
 }
 
 .table legend {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -515,7 +517,7 @@ body {
     height: 65vh;
     width: 100%;
     color: rgb(8, 8, 97);
-    font-size: 17px;
+    font-size: 16px;
     line-height: 2.2;
 }
 
@@ -533,7 +535,7 @@ body {
 }
 
 .footer h4 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1;
     
 }
@@ -543,7 +545,7 @@ body {
 }
 
 .m-f {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: bold;
 }
 
@@ -586,7 +588,7 @@ body {
     display: flex;
     width: 320px;
     justify-content: space-between;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .blue {
