@@ -60,8 +60,13 @@ body {
     position: relative; 
     left: 500px;
     height: 73px;
-    width: automatic;
-    background: darkblue;
+    width: 73px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: .2;
 }
 
 .header-middle {
@@ -220,9 +225,20 @@ body {
     
 }
 
+
 .snippet-txt {
     font-size: 17px;
     font-weight: bold;
+}
+
+.snippet img {
+    position: relative;
+    top: 5px;
+    padding-right: 3px;
+}
+
+.snippet {
+    padding-right: 15px;
 }
 
 .section-1-right button {
@@ -277,6 +293,17 @@ body {
 
 }
 
+.circle {
+    border-radius: 100%;
+    background: lightblue;
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .section-3-title-right {
     display: flex;
     width: 50%;
@@ -290,12 +317,16 @@ body {
     
 }
 
+.section-3-snippet-content {
+    height: 90%;
+    width: 90%;
+}
+
 .section-3-snippet-wrapper {
     
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    gap: 20px; 
+    justify-content: space-between; 
 }
 
 .section-3-snippet {
@@ -304,6 +335,9 @@ body {
     height: 400px;
     padding: 30px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -318,7 +352,7 @@ body {
 }
 
 .section-4 {
-    height: 130vh;
+    height: 135vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -418,10 +452,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+}
+
+.testimonial-name-job {
+    font-size: 12px;
 }
 
 .section-5-left {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .section-5-right {
@@ -438,8 +481,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+}
 
+.white {
+    color: white;
 }
 
 .form-wrapper {
